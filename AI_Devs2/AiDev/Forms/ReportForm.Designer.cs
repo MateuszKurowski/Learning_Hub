@@ -32,9 +32,9 @@ partial class ReportForm
     {
         var resources = new System.ComponentModel.ComponentResourceManager(typeof(ReportForm));
         label1 = new Label();
-        menuStrip1 = new MenuStrip();
         btnClose = new Button();
         textBox1 = new TextBox();
+        menuStrip = new MenuStrip();
         SuspendLayout();
         // 
         // label1
@@ -42,22 +42,11 @@ partial class ReportForm
         label1.BackColor = Color.Transparent;
         label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
         label1.ForeColor = Color.White;
-        label1.Location = new Point(22, 24);
+        label1.Location = new Point(22, 43);
         label1.Name = "label1";
         label1.Size = new Size(343, 87);
         label1.TabIndex = 3;
         label1.Text = "Widzisz błąd? Zgłoś go bezpośrednie do mnie\r\n korzystając z jednego z dostępnych kanałów informacji:\r\n";
-        // 
-        // menuStrip1
-        // 
-        menuStrip1.BackgroundImage = Properties.Resources.bgc;
-        menuStrip1.Location = new Point(0, 0);
-        menuStrip1.Name = "menuStrip1";
-        menuStrip1.Size = new Size(427, 24);
-        menuStrip1.TabIndex = 12;
-        menuStrip1.MouseDown += menuStrip1_MouseDown;
-        menuStrip1.MouseMove += menuStrip1_MouseMove;
-        menuStrip1.MouseUp += menuStrip1_MouseUp;
         // 
         // btnClose
         // 
@@ -72,36 +61,49 @@ partial class ReportForm
         btnClose.TabIndex = 13;
         btnClose.Text = "❌";
         btnClose.UseVisualStyleBackColor = false;
-        btnClose.Click += btnClose_Click;
+        btnClose.Click += BtnClose_Click;
         // 
         // textBox1
         // 
         textBox1.BackColor = Color.Silver;
         textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-        textBox1.Location = new Point(22, 105);
+        textBox1.Location = new Point(22, 133);
+        textBox1.MaxLength = 1;
         textBox1.Multiline = true;
         textBox1.Name = "textBox1";
         textBox1.ReadOnly = true;
-        textBox1.Size = new Size(367, 161);
+        textBox1.Size = new Size(367, 80);
         textBox1.TabIndex = 15;
-        textBox1.Text = "➖ PV na Ahoy do użytkownika Mateusz Kurowski\r\n\r\n➖ Na kurowskimateusz04@gmail.com\r\n\r\n➖ Pod postem o aplikacji na circle (LINK)\r\n\r\n\r\n";
+        textBox1.Text = "➖ PV na Ahoy do użytkownika Mateusz Kurowski\r\n\r\n➖ Na kurowskimateusz04@gmail.com";
+        // 
+        // menuStrip
+        // 
+        menuStrip.BackColor = Color.FromArgb(9, 9, 9);
+        menuStrip.BackgroundImage = AI_Devs2.Properties.Resources.bgc;
+        menuStrip.Location = new Point(0, 0);
+        menuStrip.Name = "menuStrip";
+        menuStrip.Size = new Size(427, 24);
+        menuStrip.TabIndex = 12;
+        menuStrip.MouseDown += MenuStrip_MouseDown;
+        menuStrip.MouseMove += MenuStrip_MouseMove;
+        menuStrip.MouseUp += MenuStrip_MouseUp;
         // 
         // ReportForm
         // 
         AutoScaleMode = AutoScaleMode.None;
         BackColor = Color.FromArgb(9, 9, 9);
-        BackgroundImage = Properties.Resources.bgc;
+        BackgroundImage = AI_Devs2.Properties.Resources.bgc;
         BackgroundImageLayout = ImageLayout.Stretch;
         ClientSize = new Size(427, 300);
         ControlBox = false;
         Controls.Add(textBox1);
         Controls.Add(btnClose);
         Controls.Add(label1);
-        Controls.Add(menuStrip1);
+        Controls.Add(menuStrip);
         ForeColor = Color.White;
         FormBorderStyle = FormBorderStyle.FixedToolWindow;
         Icon = (Icon)resources.GetObject("$this.Icon");
-        MainMenuStrip = menuStrip1;
+        MainMenuStrip = menuStrip;
         MaximizeBox = false;
         MinimizeBox = false;
         Name = "ReportForm";
@@ -112,7 +114,7 @@ partial class ReportForm
 
     #endregion
     private Label label1;
-    private MenuStrip menuStrip1;
     private Button btnClose;
     private TextBox textBox1;
+    private MenuStrip menuStrip;
 }

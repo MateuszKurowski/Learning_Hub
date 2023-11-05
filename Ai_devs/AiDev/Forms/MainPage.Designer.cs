@@ -30,375 +30,374 @@ partial class MainPage
     /// </summary>
     private void InitializeComponent()
     {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainPage));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.books = new System.Windows.Forms.RadioButton();
-            this.injection = new System.Windows.Forms.RadioButton();
-            this.fixit = new System.Windows.Forms.RadioButton();
-            this.getinfo = new System.Windows.Forms.RadioButton();
-            this.category = new System.Windows.Forms.RadioButton();
-            this.helloapi = new System.Windows.Forms.RadioButton();
-            this.scraper = new System.Windows.Forms.RadioButton();
-            this.blogger = new System.Windows.Forms.RadioButton();
-            this.inprompt = new System.Windows.Forms.RadioButton();
-            this.moderation = new System.Windows.Forms.RadioButton();
-            this.tbApiKey = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.tbJson = new System.Windows.Forms.TextBox();
-            this.tbTaskDescription = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.tbWebhookLink = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.btnDownloadTaskDescription = new System.Windows.Forms.Button();
-            this.btnSendToWebhook = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.btnClose = new System.Windows.Forms.Button();
-            this.btnSendBug = new System.Windows.Forms.Button();
-            this.pageSetupDialog1 = new System.Windows.Forms.PageSetupDialog();
-            this.panel1.SuspendLayout();
-            this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.books);
-            this.panel1.Controls.Add(this.injection);
-            this.panel1.Controls.Add(this.fixit);
-            this.panel1.Controls.Add(this.getinfo);
-            this.panel1.Controls.Add(this.category);
-            this.panel1.Controls.Add(this.helloapi);
-            this.panel1.Controls.Add(this.scraper);
-            this.panel1.Controls.Add(this.blogger);
-            this.panel1.Controls.Add(this.inprompt);
-            this.panel1.Controls.Add(this.moderation);
-            this.panel1.Location = new System.Drawing.Point(467, 54);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(178, 262);
-            this.panel1.TabIndex = 0;
-            // 
-            // books
-            // 
-            this.books.AutoSize = true;
-            this.books.BackColor = System.Drawing.Color.Transparent;
-            this.books.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.books.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
-            this.books.Location = new System.Drawing.Point(3, 79);
-            this.books.Name = "books";
-            this.books.Size = new System.Drawing.Size(111, 19);
-            this.books.TabIndex = 10;
-            this.books.Text = "Dzień 2 (books)";
-            this.books.UseVisualStyleBackColor = false;
-            // 
-            // injection
-            // 
-            this.injection.AutoSize = true;
-            this.injection.BackColor = System.Drawing.Color.Transparent;
-            this.injection.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.injection.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
-            this.injection.Location = new System.Drawing.Point(3, 154);
-            this.injection.Name = "injection";
-            this.injection.Size = new System.Drawing.Size(126, 19);
-            this.injection.TabIndex = 9;
-            this.injection.Text = "Dzień 4 (injection)";
-            this.injection.UseVisualStyleBackColor = false;
-            // 
-            // fixit
-            // 
-            this.fixit.AutoSize = true;
-            this.fixit.BackColor = System.Drawing.Color.Transparent;
-            this.fixit.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.fixit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
-            this.fixit.Location = new System.Drawing.Point(3, 229);
-            this.fixit.Name = "fixit";
-            this.fixit.Size = new System.Drawing.Size(101, 19);
-            this.fixit.TabIndex = 8;
-            this.fixit.Text = "Dzień 7 (fixit)";
-            this.fixit.UseVisualStyleBackColor = false;
-            // 
-            // getinfo
-            // 
-            this.getinfo.AutoSize = true;
-            this.getinfo.BackColor = System.Drawing.Color.Transparent;
-            this.getinfo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.getinfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
-            this.getinfo.Location = new System.Drawing.Point(3, 29);
-            this.getinfo.Name = "getinfo";
-            this.getinfo.Size = new System.Drawing.Size(122, 19);
-            this.getinfo.TabIndex = 7;
-            this.getinfo.Text = "Dzień 1 (getinfo) ";
-            this.getinfo.UseVisualStyleBackColor = false;
-            // 
-            // category
-            // 
-            this.category.AutoSize = true;
-            this.category.BackColor = System.Drawing.Color.Transparent;
-            this.category.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.category.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
-            this.category.Location = new System.Drawing.Point(3, 54);
-            this.category.Name = "category";
-            this.category.Size = new System.Drawing.Size(127, 19);
-            this.category.TabIndex = 6;
-            this.category.Text = "Dzień 2 (category)";
-            this.category.UseVisualStyleBackColor = false;
-            // 
-            // helloapi
-            // 
-            this.helloapi.AutoSize = true;
-            this.helloapi.BackColor = System.Drawing.Color.Transparent;
-            this.helloapi.Checked = true;
-            this.helloapi.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.helloapi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
-            this.helloapi.Location = new System.Drawing.Point(3, 4);
-            this.helloapi.Name = "helloapi";
-            this.helloapi.Size = new System.Drawing.Size(121, 19);
-            this.helloapi.TabIndex = 5;
-            this.helloapi.TabStop = true;
-            this.helloapi.Text = "Dzień 1 (helloapi)";
-            this.helloapi.UseVisualStyleBackColor = false;
-            // 
-            // scraper
-            // 
-            this.scraper.AutoSize = true;
-            this.scraper.BackColor = System.Drawing.Color.Transparent;
-            this.scraper.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.scraper.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
-            this.scraper.Location = new System.Drawing.Point(3, 204);
-            this.scraper.Name = "scraper";
-            this.scraper.Size = new System.Drawing.Size(119, 19);
-            this.scraper.TabIndex = 4;
-            this.scraper.Text = "Dzień 6 (scraper)";
-            this.scraper.UseVisualStyleBackColor = false;
-            // 
-            // blogger
-            // 
-            this.blogger.AutoSize = true;
-            this.blogger.BackColor = System.Drawing.Color.Transparent;
-            this.blogger.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.blogger.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
-            this.blogger.Location = new System.Drawing.Point(3, 179);
-            this.blogger.Name = "blogger";
-            this.blogger.Size = new System.Drawing.Size(121, 19);
-            this.blogger.TabIndex = 3;
-            this.blogger.Text = "Dzień 5 (blogger)";
-            this.blogger.UseVisualStyleBackColor = false;
-            // 
-            // inprompt
-            // 
-            this.inprompt.AutoSize = true;
-            this.inprompt.BackColor = System.Drawing.Color.Transparent;
-            this.inprompt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.inprompt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
-            this.inprompt.Location = new System.Drawing.Point(3, 104);
-            this.inprompt.Name = "inprompt";
-            this.inprompt.Size = new System.Drawing.Size(130, 19);
-            this.inprompt.TabIndex = 2;
-            this.inprompt.Text = "Dzień 3 (inprompt)";
-            this.inprompt.UseVisualStyleBackColor = false;
-            // 
-            // moderation
-            // 
-            this.moderation.AutoSize = true;
-            this.moderation.BackColor = System.Drawing.Color.Transparent;
-            this.moderation.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.moderation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
-            this.moderation.Location = new System.Drawing.Point(3, 129);
-            this.moderation.Name = "moderation";
-            this.moderation.Size = new System.Drawing.Size(143, 19);
-            this.moderation.TabIndex = 1;
-            this.moderation.Text = "Dzień 3 (moderation)";
-            this.moderation.UseVisualStyleBackColor = false;
-            // 
-            // tbApiKey
-            // 
-            this.tbApiKey.Location = new System.Drawing.Point(22, 54);
-            this.tbApiKey.Name = "tbApiKey";
-            this.tbApiKey.Size = new System.Drawing.Size(378, 23);
-            this.tbApiKey.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(22, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(159, 28);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Klucz API do AI Devs:";
-            // 
-            // tbJson
-            // 
-            this.tbJson.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbJson.Location = new System.Drawing.Point(22, 496);
-            this.tbJson.Multiline = true;
-            this.tbJson.Name = "tbJson";
-            this.tbJson.ReadOnly = true;
-            this.tbJson.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tbJson.Size = new System.Drawing.Size(623, 209);
-            this.tbJson.TabIndex = 4;
-            // 
-            // tbTaskDescription
-            // 
-            this.tbTaskDescription.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbTaskDescription.Location = new System.Drawing.Point(22, 331);
-            this.tbTaskDescription.Multiline = true;
-            this.tbTaskDescription.Name = "tbTaskDescription";
-            this.tbTaskDescription.ReadOnly = true;
-            this.tbTaskDescription.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tbTaskDescription.Size = new System.Drawing.Size(623, 112);
-            this.tbTaskDescription.TabIndex = 5;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(22, 110);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(129, 21);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Adres webhooka:";
-            // 
-            // tbWebhookLink
-            // 
-            this.tbWebhookLink.Location = new System.Drawing.Point(22, 141);
-            this.tbWebhookLink.Name = "tbWebhookLink";
-            this.tbWebhookLink.Size = new System.Drawing.Size(378, 23);
-            this.tbWebhookLink.TabIndex = 6;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(22, 295);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 21);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Opis zadania:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(22, 457);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 21);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "JSON:";
-            // 
-            // btnDownloadTaskDescription
-            // 
-            this.btnDownloadTaskDescription.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(255)))), ((int)(((byte)(108)))));
-            this.btnDownloadTaskDescription.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(255)))), ((int)(((byte)(107)))));
-            this.btnDownloadTaskDescription.FlatAppearance.BorderSize = 2;
-            this.btnDownloadTaskDescription.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnDownloadTaskDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
-            this.btnDownloadTaskDescription.Location = new System.Drawing.Point(22, 196);
-            this.btnDownloadTaskDescription.Name = "btnDownloadTaskDescription";
-            this.btnDownloadTaskDescription.Size = new System.Drawing.Size(144, 31);
-            this.btnDownloadTaskDescription.TabIndex = 10;
-            this.btnDownloadTaskDescription.Text = "Pobierz treść zadania";
-            this.btnDownloadTaskDescription.UseVisualStyleBackColor = false;
-            this.btnDownloadTaskDescription.Click += new System.EventHandler(this.tbDownloadTaskDescription_Click);
-            // 
-            // btnSendToWebhook
-            // 
-            this.btnSendToWebhook.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(255)))), ((int)(((byte)(107)))));
-            this.btnSendToWebhook.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(255)))), ((int)(((byte)(107)))));
-            this.btnSendToWebhook.FlatAppearance.BorderSize = 2;
-            this.btnSendToWebhook.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSendToWebhook.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
-            this.btnSendToWebhook.Location = new System.Drawing.Point(188, 196);
-            this.btnSendToWebhook.Name = "btnSendToWebhook";
-            this.btnSendToWebhook.Size = new System.Drawing.Size(144, 31);
-            this.btnSendToWebhook.TabIndex = 11;
-            this.btnSendToWebhook.Text = "Wyślij do webhooka";
-            this.btnSendToWebhook.UseVisualStyleBackColor = false;
-            this.btnSendToWebhook.Click += new System.EventHandler(this.btnSendToWebhook_Click);
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.BackgroundImage = global::AiDev.Properties.Resources.bgc;
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(698, 24);
-            this.menuStrip1.TabIndex = 12;
-            this.menuStrip1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.menuStrip1_MouseDown);
-            this.menuStrip1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.menuStrip1_MouseMove);
-            this.menuStrip1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.menuStrip1_MouseUp);
-            // 
-            // btnClose
-            // 
-            this.btnClose.BackColor = System.Drawing.Color.Transparent;
-            this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnClose.ForeColor = System.Drawing.Color.Black;
-            this.btnClose.Location = new System.Drawing.Point(666, 0);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(32, 39);
-            this.btnClose.TabIndex = 13;
-            this.btnClose.Text = "❌";
-            this.btnClose.UseVisualStyleBackColor = false;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
-            // btnSendBug
-            // 
-            this.btnSendBug.BackColor = System.Drawing.Color.Transparent;
-            this.btnSendBug.FlatAppearance.BorderSize = 0;
-            this.btnSendBug.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSendBug.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSendBug.ForeColor = System.Drawing.Color.Black;
-            this.btnSendBug.Location = new System.Drawing.Point(628, 0);
-            this.btnSendBug.Name = "btnSendBug";
-            this.btnSendBug.Size = new System.Drawing.Size(32, 39);
-            this.btnSendBug.TabIndex = 14;
-            this.btnSendBug.Text = "🪲";
-            this.btnSendBug.UseVisualStyleBackColor = false;
-            this.btnSendBug.Click += new System.EventHandler(this.btnSendBug_Click_1);
-            // 
-            // MainPage
-            // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
-            this.BackgroundImage = global::AiDev.Properties.Resources.bgc;
-            this.ClientSize = new System.Drawing.Size(698, 748);
-            this.ControlBox = false;
-            this.Controls.Add(this.btnSendBug);
-            this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.btnSendToWebhook);
-            this.Controls.Add(this.btnDownloadTaskDescription);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.tbWebhookLink);
-            this.Controls.Add(this.tbTaskDescription);
-            this.Controls.Add(this.tbJson);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.tbApiKey);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.menuStrip1);
-            this.ForeColor = System.Drawing.Color.White;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MainMenuStrip = this.menuStrip1;
-            this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(700, 750);
-            this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(700, 750);
-            this.Name = "MainPage";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+        var resources = new System.ComponentModel.ComponentResourceManager(typeof(MainPage));
+        panel1 = new Panel();
+        books = new RadioButton();
+        injection = new RadioButton();
+        fixit = new RadioButton();
+        getinfo = new RadioButton();
+        category = new RadioButton();
+        helloapi = new RadioButton();
+        scraper = new RadioButton();
+        blogger = new RadioButton();
+        inprompt = new RadioButton();
+        moderation = new RadioButton();
+        tbApiKey = new TextBox();
+        label1 = new Label();
+        tbJson = new TextBox();
+        tbTaskDescription = new TextBox();
+        label2 = new Label();
+        tbWebhookLink = new TextBox();
+        label3 = new Label();
+        label4 = new Label();
+        btnDownloadTaskDescription = new Button();
+        btnSendToWebhook = new Button();
+        menuStrip1 = new MenuStrip();
+        btnClose = new Button();
+        btnSendBug = new Button();
+        pageSetupDialog1 = new PageSetupDialog();
+        panel1.SuspendLayout();
+        SuspendLayout();
+        // 
+        // panel1
+        // 
+        panel1.BackColor = Color.Transparent;
+        panel1.Controls.Add(books);
+        panel1.Controls.Add(injection);
+        panel1.Controls.Add(fixit);
+        panel1.Controls.Add(getinfo);
+        panel1.Controls.Add(category);
+        panel1.Controls.Add(helloapi);
+        panel1.Controls.Add(scraper);
+        panel1.Controls.Add(blogger);
+        panel1.Controls.Add(inprompt);
+        panel1.Controls.Add(moderation);
+        panel1.Location = new Point(467, 54);
+        panel1.Name = "panel1";
+        panel1.Size = new Size(178, 262);
+        panel1.TabIndex = 0;
+        // 
+        // books
+        // 
+        books.AutoSize = true;
+        books.BackColor = Color.Transparent;
+        books.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+        books.ForeColor = Color.FromArgb(9, 9, 9);
+        books.Location = new Point(3, 79);
+        books.Name = "books";
+        books.Size = new Size(111, 19);
+        books.TabIndex = 10;
+        books.Text = "Dzień 2 (books)";
+        books.UseVisualStyleBackColor = false;
+        // 
+        // injection
+        // 
+        injection.AutoSize = true;
+        injection.BackColor = Color.Transparent;
+        injection.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+        injection.ForeColor = Color.FromArgb(9, 9, 9);
+        injection.Location = new Point(3, 154);
+        injection.Name = "injection";
+        injection.Size = new Size(126, 19);
+        injection.TabIndex = 9;
+        injection.Text = "Dzień 4 (injection)";
+        injection.UseVisualStyleBackColor = false;
+        // 
+        // fixit
+        // 
+        fixit.AutoSize = true;
+        fixit.BackColor = Color.Transparent;
+        fixit.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+        fixit.ForeColor = Color.FromArgb(9, 9, 9);
+        fixit.Location = new Point(3, 229);
+        fixit.Name = "fixit";
+        fixit.Size = new Size(101, 19);
+        fixit.TabIndex = 8;
+        fixit.Text = "Dzień 7 (fixit)";
+        fixit.UseVisualStyleBackColor = false;
+        // 
+        // getinfo
+        // 
+        getinfo.AutoSize = true;
+        getinfo.BackColor = Color.Transparent;
+        getinfo.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+        getinfo.ForeColor = Color.FromArgb(9, 9, 9);
+        getinfo.Location = new Point(3, 29);
+        getinfo.Name = "getinfo";
+        getinfo.Size = new Size(122, 19);
+        getinfo.TabIndex = 7;
+        getinfo.Text = "Dzień 1 (getinfo) ";
+        getinfo.UseVisualStyleBackColor = false;
+        // 
+        // category
+        // 
+        category.AutoSize = true;
+        category.BackColor = Color.Transparent;
+        category.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+        category.ForeColor = Color.FromArgb(9, 9, 9);
+        category.Location = new Point(3, 54);
+        category.Name = "category";
+        category.Size = new Size(127, 19);
+        category.TabIndex = 6;
+        category.Text = "Dzień 2 (category)";
+        category.UseVisualStyleBackColor = false;
+        // 
+        // helloapi
+        // 
+        helloapi.AutoSize = true;
+        helloapi.BackColor = Color.Transparent;
+        helloapi.Checked = true;
+        helloapi.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+        helloapi.ForeColor = Color.FromArgb(9, 9, 9);
+        helloapi.Location = new Point(3, 4);
+        helloapi.Name = "helloapi";
+        helloapi.Size = new Size(121, 19);
+        helloapi.TabIndex = 5;
+        helloapi.TabStop = true;
+        helloapi.Text = "Dzień 1 (helloapi)";
+        helloapi.UseVisualStyleBackColor = false;
+        // 
+        // scraper
+        // 
+        scraper.AutoSize = true;
+        scraper.BackColor = Color.Transparent;
+        scraper.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+        scraper.ForeColor = Color.FromArgb(9, 9, 9);
+        scraper.Location = new Point(3, 204);
+        scraper.Name = "scraper";
+        scraper.Size = new Size(119, 19);
+        scraper.TabIndex = 4;
+        scraper.Text = "Dzień 6 (scraper)";
+        scraper.UseVisualStyleBackColor = false;
+        // 
+        // blogger
+        // 
+        blogger.AutoSize = true;
+        blogger.BackColor = Color.Transparent;
+        blogger.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+        blogger.ForeColor = Color.FromArgb(9, 9, 9);
+        blogger.Location = new Point(3, 179);
+        blogger.Name = "blogger";
+        blogger.Size = new Size(121, 19);
+        blogger.TabIndex = 3;
+        blogger.Text = "Dzień 5 (blogger)";
+        blogger.UseVisualStyleBackColor = false;
+        // 
+        // inprompt
+        // 
+        inprompt.AutoSize = true;
+        inprompt.BackColor = Color.Transparent;
+        inprompt.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+        inprompt.ForeColor = Color.FromArgb(9, 9, 9);
+        inprompt.Location = new Point(3, 104);
+        inprompt.Name = "inprompt";
+        inprompt.Size = new Size(130, 19);
+        inprompt.TabIndex = 2;
+        inprompt.Text = "Dzień 3 (inprompt)";
+        inprompt.UseVisualStyleBackColor = false;
+        // 
+        // moderation
+        // 
+        moderation.AutoSize = true;
+        moderation.BackColor = Color.Transparent;
+        moderation.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+        moderation.ForeColor = Color.FromArgb(9, 9, 9);
+        moderation.Location = new Point(3, 129);
+        moderation.Name = "moderation";
+        moderation.Size = new Size(143, 19);
+        moderation.TabIndex = 1;
+        moderation.Text = "Dzień 3 (moderation)";
+        moderation.UseVisualStyleBackColor = false;
+        // 
+        // tbApiKey
+        // 
+        tbApiKey.Location = new Point(22, 54);
+        tbApiKey.Name = "tbApiKey";
+        tbApiKey.Size = new Size(378, 23);
+        tbApiKey.TabIndex = 2;
+        // 
+        // label1
+        // 
+        label1.BackColor = Color.Transparent;
+        label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+        label1.ForeColor = Color.White;
+        label1.Location = new Point(22, 23);
+        label1.Name = "label1";
+        label1.Size = new Size(159, 28);
+        label1.TabIndex = 3;
+        label1.Text = "Klucz API do AI Devs:";
+        // 
+        // tbJson
+        // 
+        tbJson.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+        tbJson.Location = new Point(22, 496);
+        tbJson.Multiline = true;
+        tbJson.Name = "tbJson";
+        tbJson.ReadOnly = true;
+        tbJson.ScrollBars = ScrollBars.Vertical;
+        tbJson.Size = new Size(623, 209);
+        tbJson.TabIndex = 4;
+        // 
+        // tbTaskDescription
+        // 
+        tbTaskDescription.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+        tbTaskDescription.Location = new Point(22, 331);
+        tbTaskDescription.Multiline = true;
+        tbTaskDescription.Name = "tbTaskDescription";
+        tbTaskDescription.ReadOnly = true;
+        tbTaskDescription.ScrollBars = ScrollBars.Vertical;
+        tbTaskDescription.Size = new Size(623, 112);
+        tbTaskDescription.TabIndex = 5;
+        // 
+        // label2
+        // 
+        label2.AutoSize = true;
+        label2.BackColor = Color.Transparent;
+        label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+        label2.ForeColor = Color.White;
+        label2.Location = new Point(22, 110);
+        label2.Name = "label2";
+        label2.Size = new Size(129, 21);
+        label2.TabIndex = 7;
+        label2.Text = "Adres webhooka:";
+        // 
+        // tbWebhookLink
+        // 
+        tbWebhookLink.Location = new Point(22, 141);
+        tbWebhookLink.Name = "tbWebhookLink";
+        tbWebhookLink.Size = new Size(378, 23);
+        tbWebhookLink.TabIndex = 6;
+        // 
+        // label3
+        // 
+        label3.AutoSize = true;
+        label3.BackColor = Color.Transparent;
+        label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+        label3.ForeColor = Color.White;
+        label3.Location = new Point(22, 295);
+        label3.Name = "label3";
+        label3.Size = new Size(102, 21);
+        label3.TabIndex = 8;
+        label3.Text = "Opis zadania:";
+        // 
+        // label4
+        // 
+        label4.AutoSize = true;
+        label4.BackColor = Color.Transparent;
+        label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+        label4.ForeColor = Color.White;
+        label4.Location = new Point(22, 457);
+        label4.Name = "label4";
+        label4.Size = new Size(52, 21);
+        label4.TabIndex = 9;
+        label4.Text = "JSON:";
+        // 
+        // btnDownloadTaskDescription
+        // 
+        btnDownloadTaskDescription.BackColor = Color.FromArgb(116, 255, 108);
+        btnDownloadTaskDescription.FlatAppearance.BorderColor = Color.FromArgb(116, 255, 107);
+        btnDownloadTaskDescription.FlatAppearance.BorderSize = 2;
+        btnDownloadTaskDescription.FlatStyle = FlatStyle.Popup;
+        btnDownloadTaskDescription.ForeColor = Color.FromArgb(9, 9, 9);
+        btnDownloadTaskDescription.Location = new Point(22, 196);
+        btnDownloadTaskDescription.Name = "btnDownloadTaskDescription";
+        btnDownloadTaskDescription.Size = new Size(144, 31);
+        btnDownloadTaskDescription.TabIndex = 10;
+        btnDownloadTaskDescription.Text = "Pobierz treść zadania";
+        btnDownloadTaskDescription.UseVisualStyleBackColor = false;
+        btnDownloadTaskDescription.Click += tbDownloadTaskDescription_Click;
+        // 
+        // btnSendToWebhook
+        // 
+        btnSendToWebhook.BackColor = Color.FromArgb(116, 255, 107);
+        btnSendToWebhook.FlatAppearance.BorderColor = Color.FromArgb(116, 255, 107);
+        btnSendToWebhook.FlatAppearance.BorderSize = 2;
+        btnSendToWebhook.FlatStyle = FlatStyle.Popup;
+        btnSendToWebhook.ForeColor = Color.FromArgb(9, 9, 9);
+        btnSendToWebhook.Location = new Point(188, 196);
+        btnSendToWebhook.Name = "btnSendToWebhook";
+        btnSendToWebhook.Size = new Size(144, 31);
+        btnSendToWebhook.TabIndex = 11;
+        btnSendToWebhook.Text = "Wyślij do webhooka";
+        btnSendToWebhook.UseVisualStyleBackColor = false;
+        btnSendToWebhook.Click += btnSendToWebhook_Click;
+        // 
+        // menuStrip1
+        // 
+        menuStrip1.BackgroundImage = Properties.Resources.bgc;
+        menuStrip1.Location = new Point(0, 0);
+        menuStrip1.Name = "menuStrip1";
+        menuStrip1.Size = new Size(698, 24);
+        menuStrip1.TabIndex = 12;
+        menuStrip1.MouseDown += menuStrip1_MouseDown;
+        menuStrip1.MouseMove += menuStrip1_MouseMove;
+        menuStrip1.MouseUp += menuStrip1_MouseUp;
+        // 
+        // btnClose
+        // 
+        btnClose.BackColor = Color.Transparent;
+        btnClose.FlatAppearance.BorderSize = 0;
+        btnClose.FlatStyle = FlatStyle.Flat;
+        btnClose.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+        btnClose.ForeColor = Color.Black;
+        btnClose.Location = new Point(666, 0);
+        btnClose.Name = "btnClose";
+        btnClose.Size = new Size(32, 39);
+        btnClose.TabIndex = 13;
+        btnClose.Text = "❌";
+        btnClose.UseVisualStyleBackColor = false;
+        btnClose.Click += btnClose_Click;
+        // 
+        // btnSendBug
+        // 
+        btnSendBug.BackColor = Color.Transparent;
+        btnSendBug.FlatAppearance.BorderSize = 0;
+        btnSendBug.FlatStyle = FlatStyle.Flat;
+        btnSendBug.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+        btnSendBug.ForeColor = Color.Black;
+        btnSendBug.Location = new Point(628, 0);
+        btnSendBug.Name = "btnSendBug";
+        btnSendBug.Size = new Size(32, 39);
+        btnSendBug.TabIndex = 14;
+        btnSendBug.Text = "\U0001fab2";
+        btnSendBug.UseVisualStyleBackColor = false;
+        btnSendBug.Click += btnSendBug_Click_1;
+        // 
+        // MainPage
+        // 
+        AutoScaleMode = AutoScaleMode.None;
+        BackColor = Color.FromArgb(9, 9, 9);
+        BackgroundImage = Properties.Resources.bgc;
+        ClientSize = new Size(698, 748);
+        ControlBox = false;
+        Controls.Add(btnSendBug);
+        Controls.Add(btnClose);
+        Controls.Add(btnSendToWebhook);
+        Controls.Add(btnDownloadTaskDescription);
+        Controls.Add(label4);
+        Controls.Add(label3);
+        Controls.Add(label2);
+        Controls.Add(tbWebhookLink);
+        Controls.Add(tbTaskDescription);
+        Controls.Add(tbJson);
+        Controls.Add(label1);
+        Controls.Add(tbApiKey);
+        Controls.Add(panel1);
+        Controls.Add(menuStrip1);
+        ForeColor = Color.White;
+        FormBorderStyle = FormBorderStyle.FixedToolWindow;
+        Icon = (Icon)resources.GetObject("$this.Icon");
+        MainMenuStrip = menuStrip1;
+        MaximizeBox = false;
+        MaximumSize = new Size(700, 750);
+        MinimizeBox = false;
+        MinimumSize = new Size(700, 750);
+        Name = "MainPage";
+        StartPosition = FormStartPosition.CenterScreen;
+        panel1.ResumeLayout(false);
+        panel1.PerformLayout();
+        ResumeLayout(false);
+        PerformLayout();
     }
 
     #endregion
