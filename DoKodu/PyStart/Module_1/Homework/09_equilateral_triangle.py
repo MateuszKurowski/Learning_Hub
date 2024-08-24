@@ -1,8 +1,8 @@
-import math
+from math import sqrt
 
 a = float(input('Enter the side length of the equilateral triangle: '))
 
-area = (math.sqrt(3) / 4) * a ** 2
+area = sqrt(3) / 4 * a ** 2
 perimeter = 3 * a
 
 print(f"The perimeter of the equilateral triangle is: {perimeter}")
